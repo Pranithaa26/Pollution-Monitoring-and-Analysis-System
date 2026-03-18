@@ -32,16 +32,6 @@ The system:
 3. Classifies river segments
 4. Displays color-coded pollution levels on map
 
-WQI Classification
-
-WQI Range| Category| Color
-0–25| Excellent| 🟢 Green
-26–50| Good| 🟡 Yellow
-51–75| Poor| 🟠 Orange
-76–100| Very Poor| 🔴 Red
-
-Final output: Interactive pollution map showing river health
-
 ---
 
 System Design Summary
@@ -79,8 +69,6 @@ GIS Visualization
 - State & district boundaries
 - Narmada basin polygon
 - River network & centerline
-- HQ locations & towns
-- Interactive popups
 
 ---
 
@@ -322,18 +310,3 @@ Team Members
 
 ---
 
-Conclusion
-
-This project provides a complete GIS-based pollution monitoring system, focused on:
-
- Water Quality Index (WQI) based pollution analysis
-
-It enables:
-
-- Identification of polluted river segments
-- Spatial visualization of pollution
-- Data-driven environmental decision making
-
-The final output is an interactive color-coded pollution map of the Narmada basin.
-
-—
